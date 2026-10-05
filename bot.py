@@ -277,5 +277,18 @@ async def show_products(message: Message):
             ),
             parse_mode="HTML"
         )
-        if __name__ == "__main__":
+        
+# ==================================================
+# BOTNI ISHGA TUSHIRISH
+# ==================================================
+
+async def main():
+    print("================================")
+    print("MAHALLABOZOR BOT ISHLAYAPTI!")
+    print("================================")
+
+    await dp.start_polling(bot)
+
+
+if __name__ == "__main__":
     asyncio.run(main())
