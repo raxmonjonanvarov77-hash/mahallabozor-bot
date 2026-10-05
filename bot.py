@@ -1,4 +1,4 @@
-```python
+python
 import asyncio
 import os
 import json
@@ -278,4 +278,5 @@ async def show_products(message: Message):
             ),
             parse_mode="HTML"
         )
-```
+        if __name__ == "__main__":
+    asyncio.run(main())
